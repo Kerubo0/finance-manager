@@ -121,6 +121,29 @@ header{
   scale: 0.95;
 }
 
+/* DROPDOWN */
+
+.dropdown{
+  margin-top:100px ;
+ }
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: fit-content;
+  background: #212121;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  padding-left: 10px;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
 /* DROPDOWN MENU */
 .dropdown_menu{
   display: none;
@@ -137,7 +160,7 @@ header{
 }
 
 .dropdown_menu.open{
-  height: 240px;
+  height: 250px;
 }
 
 
@@ -155,11 +178,10 @@ header{
 }
 
 .angle{
-  position: relative;
-  bottom: 10%;
   background-color: #3d3d3d;
   border-radius: 15px;
-  margin-top: 5px ;
+  margin-top: 3px ;
+  width: 15px;
  }
 
 /* RESPONSIVE DESIGN */
@@ -193,7 +215,8 @@ header{
     p{
       font-family:"Montserrat", sans-serif;
      font-weight: 500;
-     font-size: 24px;
+     font-size: 22px;
+     word-spacing: 2px;
     }
 
     .hero-text {
@@ -206,14 +229,14 @@ header{
 
     h1{
       font-family:"Montserrat", sans-serif;
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 500;
         text-align: center;
     }
 
     h2{
       font-family:"Montserrat", sans-serif;
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 600;
     }
    
@@ -228,15 +251,15 @@ header{
 
     button{
       font-family:"Montserrat", sans-serif;
-     font-size: 24px;
+     font-size: 18px;
      font-weight: 500;
     }
 
     .btn {
-        padding: 10px 20px;
+        padding: 10px 10px;
         width: 200px;
-        width: 20vw;
-        min-width: 200px;
+        /*width: 20vw;
+        min-width: 200px;*/
         margin: 20px;
         border-radius: 12px;
         font-weight: bold;
@@ -420,11 +443,16 @@ header{
   padding: 0 20px; 
 }
 
-@media (max-width: 700px){
+.bal-img{
+  width: 100%;
+  height: auto;
+}
+
+/*@media (max-width: 700px){
   .bal-img{
     width: 320px;
   }
-}
+}*/
 
 .image-two{
   max-width: 100%;
@@ -447,11 +475,16 @@ header{
   padding: 0 20px; 
 }
 
-@media (max-width: 700px){
+.fin-img{
+  width: 100%;
+  height: auto;
+}
+
+/*@media (max-width: 700px){
   .fin-img{
     width: 320px;
   }
-}
+}*/
 
 .image-three{
   max-width: 100%;
@@ -512,13 +545,13 @@ header{
   }
 }
 
-@media(max-width: 500px){
+/*@media(max-width: 500px){
   .fifth{
   position: relative;
   top: 2%;
   left: 10%;
   }
-}
+}*/
 
 @media(max-width: 500px){
   .fifth{
@@ -637,7 +670,14 @@ width: 100%;
 }
   
 .rounded-btn-holder {
-    margin-left:20px ; 
+    margin-right:10px ; 
+}
+
+@media (max-width: 450px){
+  #btn-5{
+    width: 150px;
+    margin: 10;
+  }
 }
 
 .secondary.rounded {
@@ -847,10 +887,10 @@ footer {
       font-weight: 600;
     }
 
-    p{
+    /*p{
       font-weight: 500;
       font-size: 24px;
-     }
+     }*/
    
   }
 

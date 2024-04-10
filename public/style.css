@@ -217,6 +217,7 @@ ul li:hover ul.dropdown{
      font-weight: 500;
      font-size: 22px;
      word-spacing: 2px;
+     line-height: 1.5em
     }
 
     .hero-text {
@@ -236,7 +237,7 @@ ul li:hover ul.dropdown{
 
     h2{
       font-family:"Montserrat", sans-serif;
-      font-size: 24px;
+      font-size: 30px;
       font-weight: 600;
     }
    
@@ -670,7 +671,7 @@ width: 100%;
 }
   
 .rounded-btn-holder {
-    margin-right:10px ; 
+    margin-right:20px ; 
 }
 
 @media (max-width: 450px){

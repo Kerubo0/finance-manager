@@ -26,6 +26,48 @@ backToTopBtn.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
 
+const actionBtn = document.getElementById("action_btn");
+
+actionBtn.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const actionBtnTwo = document.getElementById("action_btn2");
+
+actionBtnTwo.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const btnTwo = document.getElementById("btn-2");
+
+btnTwo.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const btnThree = document.getElementById("btn-3");
+
+btnThree.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const btnFour = document.getElementById("btn-4");
+
+btnFour.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
+const btnFive = document.getElementById("btn-5");
+
+btnFive.addEventListener("click", ()=> {
+ window.location.href = "http://localhost:3000/join"
+})
+
 const angleOne = document.getElementById("angle-one")
 var dropdownMenu = document.getElementById('dropdownMenu');
 

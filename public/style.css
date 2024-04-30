@@ -325,6 +325,11 @@ ul li ul.dropdown {
       align-items: center;
     }
 
+    .angie-w-icons{
+      width: 400px;
+      height: auto;
+    }
+
    @media ( max-width: 700px){
     .angie-w-icons{
       width: 320px;
@@ -651,7 +656,7 @@ ul li ul.dropdown {
 .card-container .image-icons {
     z-index: 10;
     position: absolute;
-    top: -250px;
+    top: -220px;
 }
 
 .oscar {
